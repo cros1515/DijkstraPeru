@@ -1,0 +1,25 @@
+body { margin: 0; font-family: Arial; }
+
+#controls {
+  padding: 10px;
+  background: #f4f4f4;
+  display: flex;
+  gap: 10px;
+}
+
+select, button {
+  padding: 8px;
+}
+
+#map {
+  height: 75vh;
+  width: 100%;
+}
+
+#info {
+  height: 25vh;
+  padding: 10px;
+  overflow: auto;
+  background: #fff;
+  border-top: 2px solid #ccc;
+}

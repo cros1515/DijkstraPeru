@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dijkstra Perú - Ruta real</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div id="controls">
+  <select id="start"></select>
+  <select id="end"></select>
+  <button onclick="calcularRuta()">Encontrar camino</button>
+</div>
+
+<div id="map"></div>
+<div id="info"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkh4zVsv1RrsDLsk_KPLqfMM9cfJyuTIM&callback=iniciarMap" async defer></script>
+<script src="script.js"></script>
+
+</body>
+</html>
