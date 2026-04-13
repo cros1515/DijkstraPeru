@@ -1,5 +1,5 @@
 Cómo ejecutar el proyecto
-1. Crea una carpeta, puede ser "tu_repositotio".
+1. Crea una carpeta, puede ser "tu_repositorio".
 2. En dicha carpeta abre la terminal de git.
 3. Una vez en la terminal Inicializa y Clona el repositorio:
   -git init
